@@ -11,9 +11,45 @@ const questions = [
     message: "What is the title of your Project?",
     name: "title"
   },
+
   {
     message: "What is the description of your Project?",
     name: "description"
+  },
+
+{
+    message: "What are the table of contents for your project",
+    name: "Table of contents"
+},
+
+  {
+    message: "What are the installation instructions for your Project?",
+    name: "installation"
+  },
+
+  {
+    message: "What will the project be used for?",
+    name: "usage"
+  },
+
+  {
+    message: "Which license is being used for this project?",
+    name: "License"
+  },
+
+  {
+    message: "What are the contribution guidelines for this project?",
+    name: "Contributing"
+  },
+
+  {
+    message: "What are the tests in your project?",
+    name: "Tests"
+  },
+
+  {
+    message: "What are the Questions in your project?",
+    name: "Questions"
   },
 ];
 
