@@ -19,7 +19,7 @@ const questions = [
 
 {
     message: "What are the table of contents for your project",
-    name: "Table of contents"
+    name: "tableOfContents"
 },
 
   {
@@ -34,22 +34,24 @@ const questions = [
 
   {
     message: "Which license is being used for this project?",
-    name: "License"
+    type: "list",
+    name: "license",
+    choices: ["license A", "license b", "license c"]
   },
 
   {
     message: "What are the contribution guidelines for this project?",
-    name: "Contributing"
+    name: "contributing"
   },
 
   {
     message: "What are the tests in your project?",
-    name: "Tests"
+    name: "tests"
   },
 
   {
     message: "What are the Questions in your project?",
-    name: "Questions"
+    name: "questions"
   },
 ];
 
