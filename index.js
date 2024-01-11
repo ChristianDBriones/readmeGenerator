@@ -36,7 +36,7 @@ const questions = [
     message: "Which license is being used for this project?",
     type: "list",
     name: "license",
-    choices: ["license A", "MIT", "license c"]
+    choices: ["Gpl-2.0", "MIT", "Bsd-2-Clause"]
   },
 
   {
