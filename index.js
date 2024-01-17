@@ -40,7 +40,7 @@ const questions = [
   },
 
   {
-    message: "What are the contribution guidelines for this project?",
+    message: "What are the ntribution guidelines for this project?",
     name: "contributing"
   },
 
@@ -53,6 +53,15 @@ const questions = [
     message: "What are the Questions in your project?",
     name: "questions"
   },
+
+  {
+    message: "What is your github username?",
+    name: "gitHubUsername"
+  },
+  {
+    message: "what is your email?",
+    name: "email"
+  }
 ];
 
 // TODO: Create a function to write README file
